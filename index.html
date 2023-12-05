@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PDF.js Tagged Reader</title>
+    <script src="./node_modules/pdfjs-dist/build/pdf.js"></script>
+    <script src="./node_modules/pdfjs-dist/image_decoders/pdf.image_decoders.js"></script>
+
+    <!-- <script src="./node_modules/pdfjs-dist/web/pdf_viewer.js"></script> -->
+    <script src="reader.js" type="module"></script>
+    <link rel="stylesheet" href="aboutReader.css" type="text/css"/>
+</head>
+<body>
+  <input type="file"
+       id="pdf-upload" name="pdf-upload"
+       accept="application/pdf">
+  <article id="pageContainer" class="container">
+  </article>
+</body>
+</html>

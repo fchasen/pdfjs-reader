@@ -1,0 +1,16 @@
+{
+  "name": "pdfjs-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "viewer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "pdfjs-dist": "^3.0.279",
+    "serve": "^14.2.1"
+  }
+}
